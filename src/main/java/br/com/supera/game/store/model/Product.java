@@ -1,4 +1,8 @@
-package br.com.supera.game.store;
+package br.com.supera.game.store.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
@@ -7,6 +11,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Product {
 
    @Id
